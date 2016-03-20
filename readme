@@ -1,0 +1,4 @@
+1. copy mvn.cmd to mvn.bat
+2. mvn clean archetype:create-from-project -DpackageName=org.study.archetype
+3. make sure the .m2 folder exists
+4. mvn clean install under target\generated-sources\archetype
